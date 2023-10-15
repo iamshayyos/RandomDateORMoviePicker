@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RandomDM</title>
     <script src="frstPgSrc.js"></script>
+    <link rel="stylesheet" href="fp.css" >
 </head>
 <body>
-    <div>
-        <select id="select" aria-placeholder="Select ctivity type">
-            <option value="">Select option</option>
-            <option value="randomDate.html">Date</option>
-            <option value="randomMovie.html">Movie</option>
-        </select>
-    </div>
+    <details class="dropdown">
+        <summary role="button">
+          <a class="button">Click on me!</a>
+        </summary>
+        <ul>
+          <li><a href="randomDate.html">Date</a></li>
+          <li><a href="randomMovie.html">Movie</a></li>
+      </ul>
+    </details>
 </body>
 </html>

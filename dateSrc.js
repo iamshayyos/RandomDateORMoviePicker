@@ -23,4 +23,7 @@
           const randomLine = Math.floor(Math.random() * lines.length)
           document.getElementById('output').innerText = lines[randomLine]
         }
+function back(){
+  window.location.href="index.html"
+}
   

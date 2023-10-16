@@ -4,19 +4,22 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #9292ed;
+    text-align: right;
 }
+
 
 /* Style for the iframe */
 iframe {
     width: 80%;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #9292ed;
     border-radius: 5px;
 }
 
 /* Style for the textarea and button */
 textarea {
-    width: 100%;
+    width: 70%;
     height: 150px; /* You can adjust the height as needed */
     padding: 10px;
     border: 1px solid #ccc;
@@ -25,7 +28,7 @@ textarea {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -34,5 +37,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
